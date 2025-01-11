@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f6fc;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --primary: #3c80fd;
+  --placeholder: #f7f6fc;
+  --black: #070707;
+  --grey: #2b2b2b;
+  --placeholder-text: #a0a0a2;
+}
+
+.container {
+  width: 424px;
+  margin: 100px auto;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 32px;
+}
+
+h4 {
+  font-weight: 700;
+}
+
+h1 {
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--black);
+}
+
+p,
+ul {
+  font-size: 16px;
+  color: var(--grey);
+  font-weight: 500;
+}
+
+p {
+  margin-top: 20px;
+  line-height: 24px;
+}
+
+ul {
+  margin-top: 25px;
+  margin-left: 30px;
+  list-style-type: square;
+}
+
+ul li {
+  margin: 0 0 10px 0;
+}
+
+form {
+  margin-top: 24px;
+}
+
+input {
+  width: 100%;
+  background-color: var(--placeholder);
+  border: 0;
+  outline: none;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+input::placeholder {
+  color: var(--placeholder-text);
+}
+
+.enrol {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.enrol input {
+  background: var(--placeholder);
+  width: initial;
+  margin: 0;
+}
+.enrol p {
+  margin: 0 0 0 8px;
+  font-weight: 500;
+}
+
+button {
+  width: 100%;
+  margin: 0 0 20px 0;
+  background-color: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 16px 20px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+button:hover {
+  background-color: #1356d3;
+}
+
+.metrics {
+  display: flex;
+  align-items: center;
+}
+
+.metrics img {
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.metrics p {
+  margin: 0;
+  padding-left: 8px;
+}
