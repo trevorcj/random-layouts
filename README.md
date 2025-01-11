@@ -2,4 +2,4 @@
 
 1. Modal Form
 
-    <img src="modal-form/assets/modal-form-ui.png" width="100%">
+    <img src="modal-form/assets/modal-form-ui.png" width="50%">
